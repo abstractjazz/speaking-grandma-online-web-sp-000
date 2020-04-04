@@ -5,7 +5,7 @@ require 'pry'
 def speak_to_grandma(greeting)
   if greeting.downcase == true
  return "HUH?! SPEAK UP, SONNY!"
-elsif greeting = "I LOVE YOU GRANDMA"
+elsif greeting == "I LOVE YOU GRANDMA"
  return "I LOVE YOU, TOO PUMPKIN!"
 else greeting.upcase == true
 return "NO, NOT SINCE 1938!"
