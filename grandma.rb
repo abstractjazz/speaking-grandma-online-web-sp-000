@@ -7,9 +7,8 @@ def speak_to_grandma(greeting)
  return "HUH?! SPEAK UP, SONNY!"
 elsif greeting = "I LOVE YOU GRANDMA"
  return "I LOVE YOU, TOO PUMPKIN!"
-elsif greeting.upcase == true
+else greeting.upcase == true
 return "NO, NOT SINCE 1938!"
-else
   end
 end
 exit
