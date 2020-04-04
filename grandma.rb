@@ -2,13 +2,14 @@ require 'pry'
 
 
 
-def speak_to_grandma(string)
-  if string = "I LOVE YOU GRANDMA!"
- return "I LOVE YOU TOO PUMPKIN!"
-elsif string = string.upcase
- return "NO, NOT SINCE 1938!"
+def speak_to_grandma(greeting)
+  if greeting = greeting.downcase
+ return "HUH?! SPEAK UP, SONNY!"
+elsif greeting = "I LOVE YOU GRANDMA"
+ return "I LOVE YOU, TOO PUMPKIN!"
+elsif greeting = greeting.upcase
+return "NO, NOT SINCE 1938!"
 else
-"HUH?! SPEAK UP SONNY!"
   end
 end
 
