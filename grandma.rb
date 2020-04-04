@@ -1,13 +1,11 @@
 require 'pry'
 
-
-
 def speak_to_grandma(greeting)
-  if greeting.downcase == true
+  if greeting.downcase
  return "HUH?! SPEAK UP, SONNY!"
 elsif greeting == "I LOVE YOU GRANDMA"
  return "I LOVE YOU, TOO PUMPKIN!"
-else greeting.upcase == true
+else greeting.upcase
 return "NO, NOT SINCE 1938!"
   end
 end
