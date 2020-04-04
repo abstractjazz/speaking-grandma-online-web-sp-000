@@ -9,7 +9,7 @@ else greeting.upcase
 return "NO, NOT SINCE 1938!"
   end
 end
-exit
+
 # Write a speak_to_grandma method.
 
 # Whatever you say to grandma, she should respond with
