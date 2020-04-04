@@ -1,7 +1,6 @@
 require 'pry'
 
 
-string = "I love you grandma"
 
 def speak_to_grandma(string)
   if string = string.upcase
