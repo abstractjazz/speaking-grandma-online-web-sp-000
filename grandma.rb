@@ -1,6 +1,6 @@
 require 'pry'
 
-def speak_to_grandma
+def speak_to_grandma(greeting)
 end
 # Write a speak_to_grandma method.
 
